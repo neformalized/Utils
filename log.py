@@ -2,7 +2,7 @@ import os
 
 #
 
-dir = "D:\\Log\\BNBUSDT\\"
+dir = "D:\\Project\\Seeker\\result\\balance\\AVAXUSDT\\"
 
 #
 
