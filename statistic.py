@@ -8,6 +8,8 @@ import os
 
 def makeReport(name, date, price, instable, incoin, avg, coin):
     
+    print(name)
+
     plot.plot(price, ls = "--", lw = 2, alpha = 0.3)
     plot.plot(instable, c = "g", ls = "-", lw = 1, alpha = 0.6)
     plot.plot(incoin, c = "r", ls = "-", lw = 1, alpha = 0.6)
@@ -47,7 +49,7 @@ def makeStatistic(name, log):
     makeReport(name, dates, normalizator(prices), normalizator(instables), normalizator(incoins), normalizator(inavgs), normalizator(coins))
 #
 
-path = "D:\\Project\\Seeker\\result\\balanceLT\\BNBUSDT\\"
+path = "D:\\Project\\Seeker\\result\\balanceDC\\BNBUSDT\\"
 
 for file in os.listdir(path):
 
